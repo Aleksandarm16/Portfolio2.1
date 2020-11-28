@@ -1,0 +1,19 @@
+$primary-color: #d20681;
+$primary-color-light: #fc4fae;
+$text-color: #0161aa;
+$text-color-light: #21c8fd;
+$bg-color: #000000;
+
+.container {
+  padding: 0 1.5rem;
+  overflow: hidden;
+  margin: auto;
+  max-width: 1500px;
+  height: 100%;
+}
+.section-title {
+  color: $text-color-light;
+  padding: 0.5rem;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}

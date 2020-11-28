@@ -1,0 +1,307 @@
+@media (max-width: 1250px) {
+  #nav-bar {
+    ul li a {
+      font-size: 1.2rem;
+      .fab {
+        font-size: 1.7rem;
+      }
+    }
+  }
+  #main-header {
+    .header-content {
+      h1 {
+        font-size: 5rem;
+      }
+      p {
+        font-size: 3rem;
+      }
+    }
+  }
+  section {
+    margin-top: 3rem;
+  }
+  .section-title {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+  #portfolio {
+    .project-title {
+      font-size: 1.4rem;
+    }
+    .project-desc {
+      font-size: 1rem;
+    }
+  }
+  #about {
+    p {
+      font-size: 1rem;
+    }
+  }
+  #contact {
+    .contact-description a {
+      font-size: 1.4rem;
+    }
+  }
+}
+@media (max-width: 1050px) {
+  #main-header {
+    .header-content {
+      h1 {
+        font-size: 4.2rem;
+        padding-bottom: 2rem;
+      }
+    }
+  }
+}
+@media (max-width: 800px) {
+  #nav-bar {
+    ul {
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        a {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    ul li:nth-last-child(-n + 2) {
+      display: none;
+    }
+  }
+  #main-header {
+    .header-content {
+      height: 100%;
+      .top-element {
+        display: none;
+      }
+      .bottom-element {
+        display: none;
+      }
+      h1 {
+        font-size: 2rem;
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+      }
+      p {
+        font-size: 1.3rem;
+      }
+    }
+  }
+  section {
+    margin-top: 0.4rem;
+  }
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  #portfolio {
+    .project-title {
+      font-size: 0.8rem;
+    }
+    .project-desc {
+      font-size: 0.7rem;
+    }
+    .links {
+      margin-top: 1rem;
+      a {
+        font-size: 1rem;
+      }
+    }
+  }
+  #about {
+    p {
+      font-size: 0.7rem;
+    }
+  }
+  #contact {
+    .contact-description {
+      li:nth-last-child(1) {
+        display: unset;
+      }
+      li {
+        padding: 0.5rem 0.7rem;
+      }
+      ul {
+        flex-direction: column;
+      }
+      .inner {
+        padding: 0 7rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        margin: auto;
+        a {
+          font-size: 1rem;
+          .fab {
+            font-size: 2rem;
+          }
+        }
+        .resume-about {
+          display: none;
+        }
+      }
+
+      a {
+        padding: unset;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  #nav-bar {
+    ul {
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        a {
+          font-size: 1rem;
+        }
+      }
+    }
+    ul li:nth-last-child(3) {
+      display: none;
+    }
+  }
+  #main-header {
+    .header-content {
+      height: 100%;
+      .top-element {
+        display: none;
+      }
+      .bottom-element {
+        display: none;
+      }
+      h1 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+    }
+  }
+  section {
+    margin-top: 0.1rem;
+  }
+  .section-title {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  #portfolio {
+    .portfolio-container {
+      display: block;
+    }
+    .project-title {
+      font-size: 0.8rem;
+    }
+    .project-desc {
+      font-size: 0.7rem;
+    }
+    .links {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      a {
+        font-size: 1rem;
+      }
+    }
+  }
+  #about {
+    p {
+      font-size: 0.7rem;
+    }
+    .about-description {
+      width: 100%;
+    }
+  }
+  #contact {
+    .contact-description {
+      a {
+        font-size: 1rem;
+      }
+      .inner {
+        padding: 0;
+        a {
+          font-size: 1rem;
+          .fab {
+            font-size: 1.7rem;
+          }
+        }
+        .resume-about {
+          display: unset;
+        }
+      }
+    }
+  }
+}
+
+@media (max-height: 700px) {
+  .section-title {
+    font-size: 2.2rem;
+  }
+  #nav-bar {
+    a {
+      font-size: 1rem;
+      .fab {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  #main-header {
+    .header-content {
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1.6rem;
+      }
+      .top-element {
+        width: 20rem;
+        height: 12rem;
+      }
+      .bottom-element {
+        width: 25rem;
+        height: 17rem;
+      }
+    }
+  }
+  #portfolio {
+    .project-title {
+      font-size: 1.4rem;
+    }
+    .project-desc {
+      font-size: 1rem;
+    }
+  }
+  #about {
+    p {
+      font-size: 1rem;
+    }
+  }
+  #contact {
+    .phone {
+      font-size: 1.5rem;
+    }
+    .email {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (max-height: 550px) {
+  #main-header {
+    .header-content {
+      .top-element {
+        display: none;
+      }
+      .bottom-element {
+        display: none;
+      }
+    }
+  }
+}

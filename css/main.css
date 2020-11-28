@@ -1,0 +1,548 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.container {
+  padding: 0 1.5rem;
+  overflow: hidden;
+  margin: auto;
+  max-width: 1500px;
+  height: 100%;
+}
+
+.section-title {
+  color: #21c8fd;
+  padding: 0.5rem;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background: #000000;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+#nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1rem;
+}
+
+#nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#nav-bar li {
+  padding: 1rem 1.5rem;
+}
+
+#nav-bar a {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #d20681;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#nav-bar a:hover {
+  color: #fc4fae;
+}
+
+#nav-bar a .fab {
+  font-size: 2.3rem;
+}
+
+#main-header .header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main-header .header-content .top-element {
+  position: absolute;
+  top: 0;
+  left: -2rem;
+  width: 20rem;
+  height: 10rem;
+}
+
+#main-header .header-content .bottom-element {
+  position: absolute;
+  bottom: 5rem;
+  right: -1.5rem;
+  width: 30rem;
+  height: 20rem;
+}
+
+#main-header .header-content h1 {
+  padding-bottom: 5rem;
+  color: #21c8fd;
+  font-weight: bold;
+  font-size: 6rem;
+  letter-spacing: 0.4rem;
+}
+
+#main-header .header-content p {
+  color: #0161aa;
+  font-size: 4rem;
+}
+
+section {
+  padding: 1.2rem 1.5rem;
+  text-align: center;
+  margin-top: 6rem;
+}
+
+#portfolio {
+  text-align: center;
+}
+
+#portfolio .portfolio-container {
+  margin-bottom: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% auto;
+      grid-template-columns: 40% auto;
+  grid-gap: 2rem;
+}
+
+#portfolio .project-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  font-size: 2.1rem;
+  color: #21c8fd;
+  padding: 0.5rem 0 0.5rem 0;
+  margin-bottom: 0.5rem;
+}
+
+#portfolio .project-desc {
+  color: #d20681;
+  font-size: 1.6rem;
+}
+
+#portfolio .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 2rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+#portfolio .links a {
+  color: #0161aa;
+  font-size: 1.5rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#portfolio .links a:hover {
+  color: #21c8fd;
+}
+
+#portfolio .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#portfolio .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 2px solid #21c8fd;
+}
+
+#portfolio .right a {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#portfolio .right a img {
+  width: 100%;
+  height: 100%;
+}
+
+#portfolio .right a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#about {
+  display: block;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+#about .about-description {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.6rem;
+  color: #d20681;
+}
+
+#contact {
+  padding: 1rem;
+}
+
+#contact .contact-description ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#contact .contact-description li {
+  padding: 1rem 1.5rem;
+}
+
+#contact .contact-description li:nth-last-child(1) {
+  display: none;
+}
+
+#contact .contact-description a {
+  color: #0161aa;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  text-align: center;
+}
+
+#contact .contact-description a:hover {
+  color: #21c8fd;
+}
+
+@media (max-width: 1250px) {
+  #nav-bar ul li a {
+    font-size: 1.2rem;
+  }
+  #nav-bar ul li a .fab {
+    font-size: 1.7rem;
+  }
+  #main-header .header-content h1 {
+    font-size: 5rem;
+  }
+  #main-header .header-content p {
+    font-size: 3rem;
+  }
+  section {
+    margin-top: 3rem;
+  }
+  .section-title {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+  #portfolio .project-title {
+    font-size: 1.4rem;
+  }
+  #portfolio .project-desc {
+    font-size: 1rem;
+  }
+  #about p {
+    font-size: 1rem;
+  }
+  #contact .contact-description a {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 1050px) {
+  #main-header .header-content h1 {
+    font-size: 4.2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  #nav-bar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #nav-bar ul li a {
+    font-size: 1.2rem;
+  }
+  #nav-bar ul li:nth-last-child(-n + 2) {
+    display: none;
+  }
+  #main-header .header-content {
+    height: 100%;
+  }
+  #main-header .header-content .top-element {
+    display: none;
+  }
+  #main-header .header-content .bottom-element {
+    display: none;
+  }
+  #main-header .header-content h1 {
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+  #main-header .header-content p {
+    font-size: 1.3rem;
+  }
+  section {
+    margin-top: 0.4rem;
+  }
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  #portfolio .project-title {
+    font-size: 0.8rem;
+  }
+  #portfolio .project-desc {
+    font-size: 0.7rem;
+  }
+  #portfolio .links {
+    margin-top: 1rem;
+  }
+  #portfolio .links a {
+    font-size: 1rem;
+  }
+  #about p {
+    font-size: 0.7rem;
+  }
+  #contact .contact-description li:nth-last-child(1) {
+    display: unset;
+  }
+  #contact .contact-description li {
+    padding: 0.5rem 0.7rem;
+  }
+  #contact .contact-description ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contact .contact-description .inner {
+    padding: 0 7rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto;
+  }
+  #contact .contact-description .inner a {
+    font-size: 1rem;
+  }
+  #contact .contact-description .inner a .fab {
+    font-size: 2rem;
+  }
+  #contact .contact-description .inner .resume-about {
+    display: none;
+  }
+  #contact .contact-description a {
+    padding: unset;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #nav-bar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #nav-bar ul li a {
+    font-size: 1rem;
+  }
+  #nav-bar ul li:nth-last-child(3) {
+    display: none;
+  }
+  #main-header .header-content {
+    height: 100%;
+  }
+  #main-header .header-content .top-element {
+    display: none;
+  }
+  #main-header .header-content .bottom-element {
+    display: none;
+  }
+  #main-header .header-content h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  #main-header .header-content p {
+    font-size: 1.1rem;
+  }
+  section {
+    margin-top: 0.1rem;
+  }
+  .section-title {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  #portfolio .portfolio-container {
+    display: block;
+  }
+  #portfolio .project-title {
+    font-size: 0.8rem;
+  }
+  #portfolio .project-desc {
+    font-size: 0.7rem;
+  }
+  #portfolio .links {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  #portfolio .links a {
+    font-size: 1rem;
+  }
+  #about p {
+    font-size: 0.7rem;
+  }
+  #about .about-description {
+    width: 100%;
+  }
+  #contact .contact-description a {
+    font-size: 1rem;
+  }
+  #contact .contact-description .inner {
+    padding: 0;
+  }
+  #contact .contact-description .inner a {
+    font-size: 1rem;
+  }
+  #contact .contact-description .inner a .fab {
+    font-size: 1.7rem;
+  }
+  #contact .contact-description .inner .resume-about {
+    display: unset;
+  }
+}
+
+@media (max-height: 700px) {
+  .section-title {
+    font-size: 2.2rem;
+  }
+  #nav-bar a {
+    font-size: 1rem;
+  }
+  #nav-bar a .fab {
+    font-size: 1.5rem;
+  }
+  #main-header .header-content h1 {
+    font-size: 3rem;
+  }
+  #main-header .header-content p {
+    font-size: 1.6rem;
+  }
+  #main-header .header-content .top-element {
+    width: 20rem;
+    height: 12rem;
+  }
+  #main-header .header-content .bottom-element {
+    width: 25rem;
+    height: 17rem;
+  }
+  #portfolio .project-title {
+    font-size: 1.4rem;
+  }
+  #portfolio .project-desc {
+    font-size: 1rem;
+  }
+  #about p {
+    font-size: 1rem;
+  }
+  #contact .phone {
+    font-size: 1.5rem;
+  }
+  #contact .email {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-height: 550px) {
+  #main-header .header-content .top-element {
+    display: none;
+  }
+  #main-header .header-content .bottom-element {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */
